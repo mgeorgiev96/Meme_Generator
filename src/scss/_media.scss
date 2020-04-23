@@ -1,0 +1,18 @@
+@media all and (max-width:900px){
+    .container{
+        button,input{
+            margin: 20px 0;
+            font-size: 1rem;
+        }
+        .meme_container{
+            width: 70%;
+            grid-template-columns: repeat(4,25%);
+            input,label{
+                font-size: 1rem;
+            }
+            button{
+                left: 38%;
+            }
+        }
+    }
+}
